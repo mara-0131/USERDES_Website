@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homepageDesign.css">
+</head>
+
+<body>
+    <div id="topbar"></div>
+
+    <h1><a href="HomePage.html">VITZ N VOPZ</a></h1>
+
+    <div class="section-title">
+        <button type="button" class="back-btn" id="backBtn" data-fallback="HomePage.html">&lt; BACK</button>
+        <h2 id="pageTitle">VINYLS</h2>
+    </div>
+
+    <div class="sort-bar">
+        <label for="sortSelect">SORT BY</label>
+        <select id="sortSelect" autocomplete="off">
+            <option value="default">DEFAULT</option>
+            <option value="az">A TO Z</option>
+            <option value="za">Z TO A</option>
+        </select>
+    </div>
+
+    <section class="home-section">
+        <div class="home-grid" data-category="vinyl"></div>
+    </section>
+
+    <noscript><p class="intro"></p></noscript>
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+<br>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand" aria-label="VITZ N VOPZ logo">
+            <img class="footer-spin" src="graphics/logo-spin.gif" alt="VITZ N VOPZ spinning logo">
+        </div>
+
+        <div class="footer-message">
+            <h2>Keep the Music Spinning</h2>
+            <p>Thanks for stopping by. Come back soon and dig through the crates again.</p>
+            <br><br>
+            <div class="footer-meta">
+                <span>© 2026 VITZ N VOPZ</span>
+                <span>•</span>
+                <span>All Rights Reserved</span>
+            </div>
+        </div>
+
+        <div class="footer-brand2" aria-label="VITZ N VOPZ logo">
+            <img class="footer-spin2" src="graphics/logo-spin.gif" alt="VITZ N VOPZ spinning logo2">
+        </div>
+
+    </div>
+</footer>
+</html>
